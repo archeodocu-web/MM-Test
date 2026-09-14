@@ -1,8 +1,8 @@
 {
-  "id": "how-to-be-a-hero-v2-test",
-  "title": "How to be a Hero V2 Test",
-  "description": "The How to be a Hero V2 Test system for FoundryVTT!",
-  "version": "2.0.0-alpha",
+  "id": "how-to-be-a-hero-test-v2",
+  "title": "How to be a Hero Test V2",
+  "description": "The How to be a Hero system for FoundryVTT!",
+  "version": "1.1.0",
   "authors": [
     {
       "name": "GrafSchwarz",
@@ -13,22 +13,22 @@
       "discord": "McGreger"
     }
   ],
-  "url": "https://github.com/GrafSchwarz/howtobeahero",
+  "url": "https://github.com/archeodocu-web/MM-Test",
   "license": "LICENSE.txt",
   "readme": "README.md",
-  "bugs": "https://github.com/GrafSchwarz/howtobeahero/issues",
+  "bugs": "https://github.com/archeodocu-web/MM-Test/issues",
   "changelog": "CHANGELOG.md",
   "media": [
     {
       "type": "setup",
-      "url": "systems/how-to-be-a-hero-v2-test/assets/htbah.webp",
-      "thumbnail": "systems/how-to-be-a-hero-v2-test/assets/htbah.webp"
+      "url": "systems/how-to-be-a-hero-test-v2/assets/htbah.webp",
+      "thumbnail": "systems/how-to-be-a-hero-test-v2/assets/htbah.webp"
     }
   ],
   "compatibility": {
     "minimum": "13",
     "verified": "13.351",
-    "maximum": "14"
+    "maximum": "13.999"
   },
   "esmodules": [
     "module/how-to-be-a-hero.mjs",
@@ -55,13 +55,13 @@
       "label": "Rules",
       "path": "packs/rules",
       "type": "JournalEntry",
-      "system": "how-to-be-a-hero-v2-test"
+      "system": "how-to-be-a-hero-test-v2"
     }
   ],
   "socket": true,
-  "manifest": "https://github.com/GrafSchwarz/howtobeahero/releases/latest/download/system.json",
-  "download": "https://github.com/GrafSchwarz/howtobeahero/releases/latest/download/how-to-be-a-hero.zip",
-  "background": "systems/how-to-be-a-hero-v2-test/assets/htbah.webp",
+  "manifest": "https://raw.githubusercontent.com/archeodocu-web/MM-Test/main/system.json",
+  "download": "https://github.com/archeodocu-web/MM-Test/archive/refs/heads/main.zip",
+  "background": "systems/how-to-be-a-hero-test-v2/assets/htbah.webp",
   "primaryTokenAttribute": "health",
   "flags": {
     "hotReload": {
