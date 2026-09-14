@@ -1,20 +1,20 @@
 {
   "Actor": {
-    "types": ["character", "npc"],
+    "types": [ "character", "npc" ],
     "templates": {
       "base": {
         "health": {
           "value": 100,
-          "min": 0,
-          "max": 1000
+          "min": -100,
+          "max": 100
         },
         "temphealth": {
           "value": 0,
-          "min": 0
+          "min": -100
         },
         "mana": {
           "value": 100,
-          "min": 0,
+          "min": -100,
           "max": 100
         },
         "skillSets": {
@@ -39,7 +39,7 @@
       }
     },
     "character": {
-      "templates": ["base"],
+      "templates": [ "base" ],
       "eureka": {
         "value": 0,
         "min": 0
@@ -51,11 +51,11 @@
       }
     },
     "npc": {
-      "templates": ["base"]
+      "templates": [ "base" ]
     }
   },
   "Item": {
-    "types": ["item", "consumable", "weapon", "armor", "tool", "ability"],
+    "types": [ "item", "consumable", "weapon", "armor", "tool", "ability" ],
     "templates": {
       "base": {
         "description": ""
@@ -83,16 +83,16 @@
       }
     },
     "item": {
-      "templates": ["base", "physical"],
+      "templates": [ "base", "physical" ],
       "type": ""
     },
     "consumable": {
-      "templates": ["base", "physical"],
+      "templates": [ "base", "physical" ],
       "type": "",
       "duration": ""
     },
     "weapon": {
-      "templates": ["base", "physical"],
+      "templates": [ "base", "physical" ],
       "weaponType": "",
       "rollType": "damage",
       "rollable": true,
@@ -103,7 +103,7 @@
       "equipped": false
     },
     "armor": {
-      "templates": ["base"],
+      "templates": [ "base" ],
       "quantity": 1,
       "armorType": "",
       "armor": 0,
@@ -111,7 +111,7 @@
       "equipped": false
     },
     "tool": {
-      "templates": ["base", "physical"],
+      "templates": [ "base", "physical" ],
       "type": "",
       "uses": {
         "value": 1,
