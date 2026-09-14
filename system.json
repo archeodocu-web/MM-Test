@@ -1,8 +1,8 @@
 {
-  "id": "how-to-be-a-hero",
-  "title": "How to be a Hero",
-  "description": "The How to be a Hero system for FoundryVTT!",
-  "version": "1.1.0",
+  "id": "how-to-be-a-hero-v2-test",
+  "title": "How to be a Hero V2 Test",
+  "description": "The How to be a Hero V2 Test system for FoundryVTT!",
+  "version": "2.0.0-alpha",
   "authors": [
     {
       "name": "GrafSchwarz",
@@ -21,8 +21,8 @@
   "media": [
     {
       "type": "setup",
-      "url": "systems/how-to-be-a-hero/assets/htbah.webp",
-      "thumbnail": "systems/how-to-be-a-hero/assets/htbah.webp"
+      "url": "systems/how-to-be-a-hero-v2-test/assets/htbah.webp",
+      "thumbnail": "systems/how-to-be-a-hero-v2-test/assets/htbah.webp"
     }
   ],
   "compatibility": {
@@ -55,17 +55,17 @@
       "label": "Rules",
       "path": "packs/rules",
       "type": "JournalEntry",
-      "system": "how-to-be-a-hero"
+      "system": "how-to-be-a-hero-v2-test"
     }
   ],
   "socket": true,
   "manifest": "https://github.com/GrafSchwarz/howtobeahero/releases/latest/download/system.json",
   "download": "https://github.com/GrafSchwarz/howtobeahero/releases/latest/download/how-to-be-a-hero.zip",
-  "background": "systems/how-to-be-a-hero/assets/htbah.webp",
+  "background": "systems/how-to-be-a-hero-v2-test/assets/htbah.webp",
   "primaryTokenAttribute": "health",
   "flags": {
     "hotReload": {
-      "extensions": ["css", "html", "json", "mjs"],
+      "extensions": [ "css", "html", "json", "mjs" ],
       "paths": [
         "lang",
         "templates",
